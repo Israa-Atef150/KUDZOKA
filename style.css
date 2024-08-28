@@ -172,14 +172,22 @@ body {
 .left-section {
     top: 0;
     left: 0;
-    
+
+}
+
+.left-section p {
+    margin-left: -30px;
+
 }
 
 .center-section {
     top: 65%;
     left: 50%;
-
     transform: translate(-50%, -50%);
+}
+
+.center-section p {
+    margin-left: -30px;
 }
 
 .right-section {
@@ -188,30 +196,34 @@ body {
     top: 300px;
 }
 
+.right-section p {
+    margin-left: -30px;
+}
+
 .left2-section {
     /* bottom: 0; */
     left: 0;
     margin-top: 200px;
 }
 
-.top1{
+.top1 {
     margin-top: 50px;
     position: relative;
     display: inline-block;
 }
 
-.bottom1{
+.bottom1 {
     position: absolute;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; 
-    font-size: 15px; 
+    color: white;
+    font-size: 15px;
     text-align: center;
     padding: 10px;
 }
 
-.bottom1 p{
+.bottom1 p {
     margin-right: 250px;
     font-size: 10px;
 }
@@ -271,7 +283,7 @@ p {
     padding: 0 20px;
 }
 
-.app{
+.app {
     display: flex;
 }
 
@@ -291,6 +303,7 @@ p {
     color: #444;
     text-decoration: none;
     font-size: 14px;
+    margin-top: 100px;
 }
 
 .app-button img {
@@ -331,11 +344,15 @@ p {
     text-decoration: underline;
 }
 
+
+
 .footer-right img {
     max-width: 50%;
     display: flex;
     height: auto;
     margin-left: 500px;
+    margin-top: 100px;
+    /* margin-bottom: 50px; */
 }
 
 
@@ -405,7 +422,9 @@ p {
         font-size: 16px;
     }
 
-    .foreground-image, .middle-image, .clouds-image {
+    .foreground-image,
+    .middle-image,
+    .clouds-image {
         width: 100%;
         height: auto;
         top: 0;
@@ -453,7 +472,9 @@ p {
         font-size: 16px;
     }
 
-    .foreground-image, .middle-image, .clouds-image {
+    .foreground-image,
+    .middle-image,
+    .clouds-image {
         width: 70%;
     }
 
